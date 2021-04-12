@@ -171,7 +171,7 @@ public class Note implements Comparable<Note> {
     }
 
     /**
-     * Make a file name.
+     * Makes a file name.
      */
     public String createFileName() {
         return this.getNote() + ".txt";
